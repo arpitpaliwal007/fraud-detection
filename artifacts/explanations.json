@@ -1,0 +1,187 @@
+[
+  {
+    "transaction": {
+      "timestamp": 11304,
+      "amount": 69.04,
+      "log_amount": 4.249079810991248,
+      "hour_risk": 0,
+      "distance": 103.87186506821067,
+      "velocity_1h": 10,
+      "new_device": 0,
+      "foreign": 0,
+      "merchant_risk": 0.10765632073650593,
+      "fraud": 1
+    },
+    "score": 0.97409,
+    "explanation": [
+      {
+        "feature": "velocity_1h",
+        "log_odds_contribution": 3.1355,
+        "effect": "increases risk"
+      },
+      {
+        "feature": "distance",
+        "log_odds_contribution": 1.1976,
+        "effect": "increases risk"
+      },
+      {
+        "feature": "log_amount",
+        "log_odds_contribution": 0.4193,
+        "effect": "increases risk"
+      },
+      {
+        "feature": "hour_risk",
+        "log_odds_contribution": -0.1654,
+        "effect": "decreases risk"
+      }
+    ]
+  },
+  {
+    "transaction": {
+      "timestamp": 11411,
+      "amount": 103.94,
+      "log_amount": 4.65335075779562,
+      "hour_risk": 1,
+      "distance": 42.79969944144025,
+      "velocity_1h": 2,
+      "new_device": 1,
+      "foreign": 1,
+      "merchant_risk": 0.13428674586418632,
+      "fraud": 1
+    },
+    "score": 0.96667,
+    "explanation": [
+      {
+        "feature": "foreign",
+        "log_odds_contribution": 1.3159,
+        "effect": "increases risk"
+      },
+      {
+        "feature": "new_device",
+        "log_odds_contribution": 0.7689,
+        "effect": "increases risk"
+      },
+      {
+        "feature": "hour_risk",
+        "log_odds_contribution": 0.643,
+        "effect": "increases risk"
+      },
+      {
+        "feature": "log_amount",
+        "log_odds_contribution": 0.599,
+        "effect": "increases risk"
+      }
+    ]
+  },
+  {
+    "transaction": {
+      "timestamp": 10947,
+      "amount": 159.53,
+      "log_amount": 5.07848802437193,
+      "hour_risk": 0,
+      "distance": 12.85508019466445,
+      "velocity_1h": 5,
+      "new_device": 1,
+      "foreign": 1,
+      "merchant_risk": 0.14652988074021325,
+      "fraud": 1
+    },
+    "score": 0.96566,
+    "explanation": [
+      {
+        "feature": "velocity_1h",
+        "log_odds_contribution": 1.4562,
+        "effect": "increases risk"
+      },
+      {
+        "feature": "foreign",
+        "log_odds_contribution": 1.3159,
+        "effect": "increases risk"
+      },
+      {
+        "feature": "log_amount",
+        "log_odds_contribution": 0.7881,
+        "effect": "increases risk"
+      },
+      {
+        "feature": "new_device",
+        "log_odds_contribution": 0.7689,
+        "effect": "increases risk"
+      }
+    ]
+  },
+  {
+    "transaction": {
+      "timestamp": 9762,
+      "amount": 193.02,
+      "log_amount": 5.267942466026689,
+      "hour_risk": 0,
+      "distance": 141.4822112420807,
+      "velocity_1h": 5,
+      "new_device": 0,
+      "foreign": 0,
+      "merchant_risk": 0.10080094635390241,
+      "fraud": 0
+    },
+    "score": 0.9502,
+    "explanation": [
+      {
+        "feature": "distance",
+        "log_odds_contribution": 1.7623,
+        "effect": "increases risk"
+      },
+      {
+        "feature": "velocity_1h",
+        "log_odds_contribution": 1.4562,
+        "effect": "increases risk"
+      },
+      {
+        "feature": "log_amount",
+        "log_odds_contribution": 0.8724,
+        "effect": "increases risk"
+      },
+      {
+        "feature": "hour_risk",
+        "log_odds_contribution": -0.1654,
+        "effect": "decreases risk"
+      }
+    ]
+  },
+  {
+    "transaction": {
+      "timestamp": 9618,
+      "amount": 52.26,
+      "log_amount": 3.975216142573385,
+      "hour_risk": 0,
+      "distance": 41.54564385971593,
+      "velocity_1h": 0,
+      "new_device": 1,
+      "foreign": 1,
+      "merchant_risk": 0.5905319232296922,
+      "fraud": 1
+    },
+    "score": 0.93677,
+    "explanation": [
+      {
+        "feature": "foreign",
+        "log_odds_contribution": 1.3159,
+        "effect": "increases risk"
+      },
+      {
+        "feature": "merchant_risk",
+        "log_odds_contribution": 1.0492,
+        "effect": "increases risk"
+      },
+      {
+        "feature": "new_device",
+        "log_odds_contribution": 0.7689,
+        "effect": "increases risk"
+      },
+      {
+        "feature": "log_amount",
+        "log_odds_contribution": 0.2975,
+        "effect": "increases risk"
+      }
+    ]
+  }
+]
